@@ -1,0 +1,6 @@
+c:\users\dell-pc\documents\visual studio 2013\Projects\karthi-project\karthi-project\bin\karthi-project.dll.config
+c:\users\dell-pc\documents\visual studio 2013\Projects\karthi-project\karthi-project\bin\karthi-project.dll
+c:\users\dell-pc\documents\visual studio 2013\Projects\karthi-project\karthi-project\bin\karthi-project.pdb
+c:\users\dell-pc\documents\visual studio 2013\Projects\karthi-project\karthi-project\obj\Debug\karthi-project.csprojResolveAssemblyReference.cache
+c:\users\dell-pc\documents\visual studio 2013\Projects\karthi-project\karthi-project\obj\Debug\karthi-project.dll
+c:\users\dell-pc\documents\visual studio 2013\Projects\karthi-project\karthi-project\obj\Debug\karthi-project.pdb

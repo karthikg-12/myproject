@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Karthi's Mini Project</title>
+    <style>
+        .navbar-image{
+            height:1px;
+        }
+        .navbar-nav img {
+  height: 50px;
+  margin-right: 20px;
+  align-items:flex-end; 
+}
+       
+    </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.gridrotator.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            $('#ri-grid').gridrotator({
+                animSpeed: 300,
+                animType: 'rotateBottom',
+                w320: {
+                    rows: 3,
+                    columns: 4
+                },
+                w240: {
+                    rows: 3,
+                    columns: 3
+                },
+                slideshow: false,
+                onhover: true
+            });
+
+        });
+    </script>
+    <link href="Style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Karthi's Site
+                    <!--<img class="img-responsive" width="130px" height="" src="C:\Users\Dell-pc\Desktop\dhoni.jpg">-->
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="Main.html">Home</a></li>
+                <li><a href="result.html">My marks</a></li>
+                <li><a href="ERP.html">ERP Portal</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <!--<li style="margin-left:790px"><img class="img-responsive" width="60px" height="" src="C:\Users\Dell-pc\Desktop\dhoni.jpg"></li>-->
+                
+            </ul>
+        </div>
+    </nav>
+    <h1 class="header">
+        My HomePage
+    </h1>
+    <div class="swap-on-hover">
+        <img class="frontimage" src="C:\Users\Dell-pc\Desktop\pic.jpg" />
+        <img class="backimage" src="C:\Users\Dell-pc\Desktop\dhoni.jpg" />
+    </div>
+
+
+    <div class="footernew">
+        <p>My Mini Project &nbsp; &nbsp; &copy; 2020 All rights reserved</p>
+    </div>
+</body>
+</html>
